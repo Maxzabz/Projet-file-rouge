@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+
+}
+li{
+    list-style-type: none;
+    color: black;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+}
+ul{
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border-style: groove;
+    box-shadow: 6px 6px 6px black;
+}
+ul:hover{
+    overflow: visible;
+
+
+}

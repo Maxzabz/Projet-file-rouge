@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+@font-face{
+    src: url('../font/DancingScript-VariableFont_wght.ttf');
+    font-family: 'Dancing Script', cursive;
+    }
+
+body{
+    background-image: url("toile_1920x1200.jpg");
+    background-color : RGBa(255, 255, 0, 0.2);
+    background-repeat:no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.article {
+    font-family: 'DancingScript-VariableFont_wght';
+    font-size: 30px;
+    color:darksalmon
+    
+}
+
+
+
