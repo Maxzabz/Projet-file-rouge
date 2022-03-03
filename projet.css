@@ -1,32 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 
 @font-face{
-    src: url('../font/DancingScript-VariableFont_wght.ttf');
-    font-family: 'Dancing Script', cursive;
-    }
+    src: url('../perso/font/Dongle-Regular.ttf');
+    font-family: 'Dongle', cursive
+}
+
+ /* #########################Corp de ma page############################# */
+ /* ########Photo by Timothee-gidenne (https://unsplash.com/@timgid)######### */
 
 body{
-    background-image: url("toile_1920x1200.jpg");
+
+    background-image: url("image/timothee-gidenne-l8r0iD7_gtU-unsplash.jpg"); 
     background-color : RGBa(255, 255, 0, 0.2);
-    background-repeat:no-repeat; 
+    background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/* #########################Titre et texte############################# */
 h1 {
-    font-family: 'Dancing Script', cursive;
-    color: white;
+    font-family: 'Dongle', cursive;
+    color: black;
+    font-size: 70px;
 }
 h2 {
-    font-family: 'Dancing Script', cursive;
-    color: white;
-}
-.article {
-    font-family: 'DancingScript-VariableFont_wght';
+    font-family: 'Dongle', cursive;
+    color: black;
     font-size: 30px;
-    color:darksalmon
-    
 }
+
+h3 {
+    font-family: 'Dongle', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+.article li
+{
+    font-family: 'Dongle';
+    font-size: 25px;
+    color: black;
+}
+
 
 
 
