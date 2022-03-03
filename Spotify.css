@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 
 @font-face{
-    src: url('../font/DancingScript-VariableFont_wght.ttf');
-    font-family: 'Dancing Script', cursive;
+    src: url('../perso/font/Dongle-Regular.ttf');
+    font-family: 'Dongle', cursive;
     }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dongle', cursive;
     color: white;
+    font-size: 30px;
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dongle', cursive;
     color: white;
 }
 
@@ -30,11 +31,17 @@ h2 {
 }
 
 body{
-    background-image: url("music2_1920x1080.jpg");
+    background-image: url("image/music2_1920x1080.jpg");
     background-color : RGBa(255, 255, 0, 0.2);
     background-repeat:no-repeat; 
     background-size: cover;
     background-attachment: fixed;
+}
+
+li {
+    color: white;
+    font-family: 'Dongle', cursive;
+    font-size: 20px;
 }
 
 
